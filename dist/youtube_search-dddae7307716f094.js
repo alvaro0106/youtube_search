@@ -627,7 +627,7 @@ function __wbg_get_imports() {
         const ret = makeClosure(arg0, arg1, 137, __wbg_adapter_20);
         return addHeapObject(ret);
     };
-    imports.wbg.__wbindgen_closure_wrapper3111 = function(arg0, arg1, arg2) {
+    imports.wbg.__wbindgen_closure_wrapper3113 = function(arg0, arg1, arg2) {
         const ret = makeMutClosure(arg0, arg1, 240, __wbg_adapter_23);
         return addHeapObject(ret);
     };
@@ -670,7 +670,7 @@ async function __wbg_init(input) {
     if (wasm !== undefined) return wasm;
 
     if (typeof input === 'undefined') {
-        input = new URL('youtube_search-4c62f4302eafd890_bg.wasm', import.meta.url);
+        input = new URL('youtube_search-dddae7307716f094_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 

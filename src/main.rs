@@ -20,6 +20,9 @@ fn app() -> Html {
             <div>
             <button>{"busca!"}</button>
             </div>
+            <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pvc84wrTJBI?si=42oHI4YIN9k1fnj9"></iframe>
+            </div>
         </main>
     }
 
