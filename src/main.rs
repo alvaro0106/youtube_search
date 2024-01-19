@@ -7,10 +7,20 @@ fn main() {
 
 #[function_component(App)]
 fn app() -> Html {
+    let handle_input = Callback::from(|_| {});
+
     html!{
-        <div>
-        {"Hola"}
-        </div>
+        <main>
+            <div>
+            {"Ingresa una palabra"}
+            </div>
+            <div>
+            <input type="text" oninput={handle_input}/> 
+            </div>
+            <div>
+            <button>{"busca!"}</button>
+            </div>
+        </main>
     }
 
 }
