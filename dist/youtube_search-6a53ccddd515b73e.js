@@ -623,12 +623,12 @@ function __wbg_get_imports() {
     imports.wbg.__wbindgen_throw = function(arg0, arg1) {
         throw new Error(getStringFromWasm0(arg0, arg1));
     };
-    imports.wbg.__wbindgen_closure_wrapper1514 = function(arg0, arg1, arg2) {
-        const ret = makeClosure(arg0, arg1, 202, __wbg_adapter_20);
+    imports.wbg.__wbindgen_closure_wrapper1405 = function(arg0, arg1, arg2) {
+        const ret = makeClosure(arg0, arg1, 167, __wbg_adapter_20);
         return addHeapObject(ret);
     };
-    imports.wbg.__wbindgen_closure_wrapper3371 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 307, __wbg_adapter_23);
+    imports.wbg.__wbindgen_closure_wrapper3244 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 272, __wbg_adapter_23);
         return addHeapObject(ret);
     };
 
@@ -670,7 +670,7 @@ async function __wbg_init(input) {
     if (wasm !== undefined) return wasm;
 
     if (typeof input === 'undefined') {
-        input = new URL('youtube_search-a9222bf47d5e5c11_bg.wasm', import.meta.url);
+        input = new URL('youtube_search-6a53ccddd515b73e_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 

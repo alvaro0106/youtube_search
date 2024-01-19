@@ -7,10 +7,11 @@ fn main() {
 
 #[function_component(App)]
 fn app() -> Html {
+    let on_search = Callback::<String>::from(|_| {});
 
     html!{
         <main>
-            <VideoControls/>
+            // <VideoControls on_search = {on_search} />
             <VideoSection name= "nombre video" id="pvc84wrTJBI?si=2SRySSjMjrJg3LfQ"/>
         </main>
     }
@@ -22,7 +23,7 @@ struct VideoControlsProps {
 }
 
 #[function_component(VideoControls)]
-fn controls() -> Html{
+fn controls(props: &VideoSectionProps) -> Html{
     let handle_input = Callback::from(|_| {});
     html!{
         <div>
